@@ -545,6 +545,9 @@ button:hover{
     .about-me-content {
         width: 70%;
     }
+    .skewed-box {
+        height: 120px;
+    }
     
 }
 
@@ -595,13 +598,17 @@ button:hover{
         font-size: 12px;
     }
     
+    .skewed-box {
+        height: 100px;
+    }
+    
     .footer h4 {
         font-size: 14px;
     }
     
 }
 
-/******************************* MEDIA QUERY WIDTH 760px ***************************/
+/******************************* MEDIA QUERY WIDTH 784px ***************************/
 
 @media only screen and (max-width: 784px) {
     
@@ -646,16 +653,136 @@ button:hover{
     }
     
     .contact-container i {
-        padding: 20px 25px 0px 25px;
+        padding: 50px 25px 0px 25px;
     }
+    
+    .contact-content {
+        flex-direction: column;
+    }
+    
+    .skewed-box {
+        height: 100px;
+    }
+    
+    .contact-container h4 {
+        bottom: 120px;
+    }
+    
+    .signup-form h3 {
+        font-size: 22px;
+    }
+    .signup-form p {
+        font-size: 16px;
+    }
+    .contact-container i {
+        font-size: 60px;
+    }
+    .contact-icons {
+        height: 550px;
+    }
+    
+    
    
 }
 
-/******************************* MEDIA QUERY WIDTH 600px ***************************/
+/******************************* MEDIA QUERY WIDTH 560px ***************************/
 
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 560px) {
     
+    .nav-bar li {
+        font-size: 14px;
+    }
     
+    h1 {
+        font-size: 50px;
+
+    }
+    h2 {
+        font-size: 30px;
+    }
+    button {
+        width: 100px;
+        height: 40px;
+        font-size: 18px;
+    }
+    
+    .benefits-content h3 {
+        font-size: 18px;
+    }
+        
+    .offers-container img {
+        position: relative;
+        top: 80px;
+        width: 130px;
+        padding: 3px;
+    }
+    .offers-main-table {
+        width: 98%;
+    }
+    
+    .testamonials-title h2 {
+        font-size: 40px;
+    }
+    .testamonials-container h5, .testamonials-container h4 {
+        font-size: 15px;
+    }
+    .testamonials-container p {
+        font-size: 12px;
+    }
+    
+    .about-me-content {
+        font-size: 12px;
+    }
+    .about-me-container h4{
+        font-size: 16px;
+    }
+    .about-me-container i{
+        font-size: 10px;
+    }
+    
+    .contact-container h4 {
+        font-size: 30px;
+        bottom: 90px;
+    }
+    .signup-form h3 {
+        font-size: 18px;
+    }
+    .signup-form p {
+        font-size: 12px;
+    }
+    .signup-form input {
+        height: 35px;
+    }
+    
+    .skewed-box {
+        height: 40px;
+    }
+    .contact-content {
+        flex-direction: column;
+        padding-top: 40px;
+    }
+    
+    .contact-container i {
+        font-size: 50px;
+    }
+    
+    .contact-container i {
+        padding: 30px 25px 0px 25px;
+    }
+    .contact-icons {
+        height: 380px;
+    }
+    
+    .footer h4 {
+        font-size: 12px;
+    }
         
 }
 
+/******************************* MEDIA QUERY WIDTH 560px ***************************/
+
+@media only screen and (max-width: 560px) {
+    
+    
+    
+}
