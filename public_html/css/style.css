@@ -32,7 +32,6 @@ html, body {
     color: #FFF3E5;
 }
 
-
 .nav-bar li {
     display: inline;
     flex-direction: column;
@@ -41,6 +40,43 @@ html, body {
     list-style: none;
     color: #FFF3E5;
 }
+
+.hamburger-menu * {
+    display: none;
+}
+
+.hamburger-menu {
+    display: block;
+    float: right;
+    width: 150px;
+    height: 200px;
+}
+
+.hamburger-menu-background {
+    border: solid red 1px;
+    position: absolute;
+    float: right;
+    width: 150px;
+    height: 200px;
+    background: rgba(200, 200, 200, 0.5);
+
+}
+
+.hamburger-menu i {
+    position: absolute;
+    right: 0px;
+}
+
+.hamburger-menu li {
+    position: relative;
+    float: right;
+    right: 10px;
+    top: 30px;
+    font-size: 17px;
+    list-style: none;
+    color: black;
+}
+
 
 .nav-bar a {
     text-decoration: none;
@@ -783,6 +819,103 @@ button:hover{
 
 @media only screen and (max-width: 560px) {
     
+    .nav-bar {
+        display:none;
+    }
     
     
+    
+    .hamburger-menu * {
+        display: block;
+    }
+    
+    
+    
+    .benefits-content h3 {
+        width: 220px;
+        font-size: 14px;
+    }
+    
+    .offers-container h2 {
+        padding: 5px;
+    }
+    
+    .offers-detail{
+        line-height: 0px;
+    }
+    .offers-detail li{
+        position: relative;
+        width: 180px;
+        bottom: 18px;
+        right: 25px;
+        line-height: 1.5;
+    }
+    .offers-price {
+        position: relative;
+        top: 20px;
+        font-size: 20px;
+    }
+    .offers-table img {
+        width: 100px;
+    }
+    
+    .about-me-content {
+        width: 85%;
+        line-height: 1.75;
+        margin-left: 1.5%;
+        font-size: 12px;
+    }
+    .about-me-container img {
+        width: 80px;
+    }
+    .about-me-container h4 {
+        padding: 0px;
+    }
+    .about-me-pic {
+        width: 100%;
+        height: auto;
+    }
+    .about-me-quote {
+        width: 100%;
+        height: auto;
+        padding: 0px;
+    }
+    .contact-container h4 {
+        bottom: 70px;
+    }
+    .signup-form h3 {
+        font-size: 18px;
+    }
+    .signup-form p {
+        font-size: 12px;
+    }
+    .signup-form input {
+        height: 30px;
+    }
+    .skewed-box {
+        height: 40px;
+    }
+    .contact-content {
+        flex-direction: column;
+        padding-top: 40px;
+    }
+    .contact-container i {
+        font-size: 40px;
+    }
+    
+    .contact-container i {
+        padding: 10px 25px 10px 25px;
+    }
+    .contact-icons {
+        height: 380px;
+    }
+    
+    .copyright {
+        font-size: 18px;
+    }
+
+    .copyright h4 {
+        padding: 0px 10px 0px 5px;
+        font-size: 12px;
+    }
 }

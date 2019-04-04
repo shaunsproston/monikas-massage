@@ -5,5 +5,9 @@ $(document).ready(()=>{
         $(event.currentTarget).toggleClass('rotate');
     })
    
+    $('#menu-icon').on('click', (event)=> {
+        $(event.currentTarget).show();
+    })
+    
 });
 
