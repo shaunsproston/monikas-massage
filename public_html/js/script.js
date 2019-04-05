@@ -6,8 +6,10 @@ $(document).ready(()=>{
     })
    
     $('#menu-icon').on('click', (event)=> {
-        $(event.currentTarget).show();
+        $('.hamburger-menu-background').slideToggle();
+        $('.hamburger-menu li').slideToggle();
     })
+    
     
 });
 
