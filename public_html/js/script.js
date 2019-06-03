@@ -10,5 +10,9 @@ $(document).ready(()=>{
         $('.hamburger-menu li').slideToggle();
     })
 
+    $('#book-btn').on('click', (event)=> {
+        $('.form-container').slideToggle();
+    })
+
 });
 
